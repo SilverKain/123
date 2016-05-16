@@ -126,18 +126,26 @@ aside .Ut{
 
 .title_custom{
     font-size: 16px; font-weight: Bold;
+    padding-left: 10px;
 }
 
 .custom_1{
     margin-top: 20px;
+    padding-left: 10px;
 }
 
 .custom_2{
     margin-top: 20px;
+    padding-left: 10px;
 }
 
 .custom_3{
     margin-top: 20px;
+    padding-left: 10px;
+}
+
+.custom_5{
+    padding-left: 10px;
 }
 
 select{
@@ -150,6 +158,61 @@ select{
 
 .radio_butt{
 float: right;
-margin-right: 35px;
+margin-right: 50px;
 margin-top: 20px;
+}
+
+.Picker{
+    float: left;
+}
+
+.custom_4 {
+    margin-top: 165px;
+}
+
+
+input{
+    padding: 1em 0em 0em;
+    text-align: center;
+}
+
+.Total{
+    font-size: 14px; font-weight: Bold;
+    color:black;
+}
+
+.lb{
+    font-size: 11px; font-weight: normal;
+    color:black;
+}
+
+.est{
+    font-size: 11px; font-weight: normal;
+    color:gray;
+}
+
+.totals{
+    padding-left: 50px;
+}
+
+button{
+    padding: 10px 30px;
+    margin-left: 130px;
+    margin-top: 10px;
+    background-color: orange;
+    color: white;
+    font-size: 16px; font-weight: Bold;
+    border-radius: 5px;
+}
+
+.Customization{
+    border: 1px solid #dddddd;
+    padding: 10px 0px 0px 0px;
+}
+
+
+.addcard{
+    border-top: 2px dotted #dddddd;
+    background-color: #f2f2f2;
+    height: 66px;
 }
