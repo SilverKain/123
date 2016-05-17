@@ -14,13 +14,6 @@ body{
     width:950px; margin:0 auto;
 }
 
-.main h1 {
-    margin-bottom: 20px; font-size: 28px; font-weight: Bold;
-}
-
-.main p {
-    margin-bottom: 20px; font-size: 14px; font-weight: normal;
-}
 
 header {
     padding:30px 0 0 0;
@@ -54,10 +47,12 @@ p span{
    color: #346702;
 }
 
+/*RIGTH UP*/
+
+
 .orang_nadp{
     color: #f17502;
 }
-
 
 aside .sit{
     font-size: 14px; font-weight: Bold;
@@ -71,7 +66,6 @@ aside .Ut{
     border: 1px solid orangered;
     padding: 10px;
 }
-
 
 .f_chisl{
     font-size: 18px; font-weight: Bold;
@@ -144,9 +138,7 @@ aside .Ut{
     padding-left: 10px;
 }
 
-.custom_5{
-    padding-left: 10px;
-}
+
 
 select{
     padding: 5px 60px 5px 5px;
@@ -170,6 +162,10 @@ margin-top: 20px;
     margin-top: 165px;
 }
 
+.custom_4 img {
+    padding-right: 10px;
+    padding-left: 10px;
+}
 
 input{
     padding: 1em 0em 0em;
@@ -215,4 +211,110 @@ button{
     border-top: 2px dotted #dddddd;
     background-color: #f2f2f2;
     height: 66px;
+}
+
+/*END RIGTH UP*/
+
+/*LEFT UP*/
+
+.pics{
+    padding: 10px 0px 10px 160px;
+}
+
+.main_pic{
+ padding-left: 100px;
+}
+
+hr{
+    color: lavender;
+}
+
+.savelist{
+    font-size: 14px; font-weight: Bold;
+    color:purple;
+}
+
+.GreenATR{
+    font-size: 16px; font-weight: Bold;
+    color:green;
+}
+
+.BlackGFD{
+    font-size: 16px; font-weight: Bold;
+    color:black;
+}
+
+.BlackTCOS{
+    font-size: 14px; font-weight: normal;
+    color:black;
+}
+
+.Greenmore{
+    font-size: 14px; font-weight: normal;
+    color:green;
+}
+
+.snowfrozen{
+    font-size: 14px; font-weight: normal;
+}
+
+.snowfrozen img{
+    padding-right: 5px;
+}
+
+
+
+
+/* Grow */
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+
+
+.hvr-bubble-left {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+}
+.hvr-bubble-left:before {
+    pointer-events: none;
+    position: absolute;
+    z-index: -1;
+    content: '';
+    border-style: solid;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    top: calc(50% - 10px);
+    left: 0;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #e1e1e1 transparent transparent;
+}
+.hvr-bubble-left:hover:before, .hvr-bubble-left:focus:before, .hvr-bubble-left:active:before {
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px);
 }
