@@ -14,7 +14,6 @@ body{
     width:950px; margin:0 auto;
 }
 
-
 header {
     padding:30px 0 0 0;
 }
@@ -49,71 +48,69 @@ p span{
 
 /*RIGTH UP*/
 
-
-.orang_nadp{
+.main_right_obj_on{
     color: #f17502;
 }
 
-aside .sit{
+aside .main_right_obj_m{
     font-size: 14px; font-weight: Bold;
 }
 
-aside .Ut{
+aside .main_right_obj_U{
     font-size: 12px; font-weight: normal;
 }
 
-.orang{
+.main_right_obj{
     border: 1px solid orangered;
     padding: 10px;
 }
 
-.f_chisl{
+.main_right_f_a{
     font-size: 18px; font-weight: Bold;
     color: black;
     text-decoration: line-through;
 }
 
-.s_chisl{
+.main_right_f_b{
     font-size: 18px; font-weight: Bold;
     color: red;
 }
 
-.t_chisl{
+.main_right_f_c{
     font-size: 14px; font-weight: normal;
     color: red;
 }
 
-.firsstrok{
+.main_right_f{
     margin-top: 20px;
 }
 
-.ch_chisl{
+.main_right_s{
     font-size: 14px; font-weight: Bold;
     color: black;
 }
 
-.fiv_chisl{
+.main_right_s_f{
     font-size: 14px; font-weight: Bold;
     color: red;
 }
 
-.six_chisl{
+.main_right_s_s{
     font-size: 12px; font-weight: normal;
     color: green;
 }
 
-
-#6oz{
+.main_right{
     font-size: 14px; font-weight: normal;
 }
 
-.fiol_Save{
+.main_right_obj_s{
     font-size: 14px; font-weight: Bold;
     color:purple;
 }
 
 
-.Details{
+.main_right_obj_f{
     font-size: 12px; font-weight: normal;
     color:green;
 }
@@ -123,22 +120,10 @@ aside .Ut{
     padding-left: 10px;
 }
 
-.custom_1{
+.custom_f{
     margin-top: 20px;
     padding-left: 10px;
 }
-
-.custom_2{
-    margin-top: 20px;
-    padding-left: 10px;
-}
-
-.custom_3{
-    margin-top: 20px;
-    padding-left: 10px;
-}
-
-
 
 select{
     padding: 5px 60px 5px 5px;
@@ -148,7 +133,7 @@ select{
  float: left;
 }
 
-.radio_butt{
+.main_rgh_dw{
 float: right;
 margin-right: 50px;
 margin-top: 20px;
@@ -158,11 +143,11 @@ margin-top: 20px;
     float: left;
 }
 
-.custom_4 {
+.main_rgh_dw_c {
     margin-top: 165px;
 }
 
-.custom_4 img {
+.main_rgh_dw_c img {
     padding-right: 10px;
     padding-left: 10px;
 }
@@ -172,26 +157,26 @@ input{
     text-align: center;
 }
 
-.Total{
+.main_rgh_dw_t{
     font-size: 14px; font-weight: Bold;
     color:black;
 }
 
-.lb{
+.main_rgh_dw_s{
     font-size: 11px; font-weight: normal;
     color:black;
 }
 
-.est{
+.main_rgh_dw_a{
     font-size: 11px; font-weight: normal;
     color:gray;
 }
 
-.totals{
+.main_rgh_dw_f{
     padding-left: 50px;
 }
 
-.addcard button{
+.main_rgh_dw_b button{
     padding: 10px 30px;
     margin-left: 130px;
     margin-top: 10px;
@@ -207,7 +192,7 @@ input{
 }
 
 
-.addcard{
+.main_rgh_dw_b{
     border-top: 2px dotted #dddddd;
     background-color: #f2f2f2;
     height: 66px;
@@ -221,7 +206,7 @@ input{
     padding: 10px 0px 10px 160px;
 }
 
-.main_pic{
+.container_pic{
  padding-left: 100px;
 }
 
@@ -229,22 +214,22 @@ hr{
     color: lavender;
 }
 
-.savelist{
+.container_list{
     font-size: 14px; font-weight: Bold;
     color:purple;
 }
 
-.GreenATR{
+.container_Green{
     font-size: 16px; font-weight: Bold;
     color:green;
 }
 
-.BlackGFD{
+.container_BlackG{
     font-size: 16px; font-weight: Bold;
     color:black;
 }
 
-.BlackTCOS{
+.container_BlackT{
     font-size: 14px; font-weight: normal;
     color:black;
 }
@@ -254,11 +239,11 @@ hr{
     color:green;
 }
 
-.snowfrozen{
+.container_snow{
     font-size: 14px; font-weight: normal;
 }
 
-.snowfrozen img{
+.container_snow img{
     padding-right: 5px;
 }
 
@@ -324,7 +309,46 @@ hr{
     height: 19px;
 }
 
-.Allergens{
+.container_Allergens{
     font-size: 16px; font-weight: Bold;
+    color:green;
+}
+
+/*END RIGHT DOWN*/
+
+.main_rgh_dw_n{
+    font-size: 20px; font-weight: Bold;
+    color:black;
+    margin-top: 30px;
+}
+
+.main_rgh_a{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main_rgh_b{
+    float: right;
+    margin-right: 40px;
+}
+
+.main_rgh_d{
+    float: right;
+    margin-right: 60px;
+}
+
+.main_rgh_c{
+    font-size: 13px; font-weight: Bold;
+}
+
+.main_rgh_f{
+    font-size: 13px; font-weight: normal;
+}
+
+.main_rgh_dw_y{
+    padding-top: 20px;
+}
+
+.main_rgh_dw_u{
     color:green;
 }
