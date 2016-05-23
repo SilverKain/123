@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="jquery-1.12.3.js"></script>
+    <script src="myjs.js"></script>
+
     <link href="css/hover-min.css" rel="stylesheet">
     <link href="css/hover.css" rel="stylesheet">
     <title>Code on Maket</title>
@@ -12,7 +15,7 @@
     <header>
     <h1>Frito-Lay Classic Mix Variety Sack, Case</h1>
     <p>“Aka Name”</p>
-    <p>(120 ct)&nbsp &nbsp &nbsp <img src="img/gold_star.png" alt=""> <img src="img/gold_star.png" alt=""> <img src="img/gold_star.png" alt=""> <img src="img/gold_star.png" alt=""> <img src="img/grey_star.png" alt="">&nbsp &nbsp <img src="img/sharke.png" alt=""> <span>Sustainability Rating</span> <img src="img/Product-Page_v02_2.png" alt=""> </p>
+    <p>(120 ct)&nbsp &nbsp &nbsp <img src="img/grey_star.png" alt=""> <img src="img/grey_star.png" alt=""> <img src="img/grey_star.png" alt=""> <img src="img/grey_star.png" alt=""> <img src="img/grey_star.png" alt="">&nbsp &nbsp <img src="img/sharke.png" alt=""> <span>Sustainability Rating</span> <img src="img/Product-Page_v02_2.png" alt=""> </p>
     </header>
 
     <div class="main-content">
@@ -36,17 +39,17 @@
     <p><div class="container_snow"><img src="img/snow.png" alt="">Parbaked Frozen</div></p>
     <p><button><div class="facebook">&nbsp</div></button><span class="hvr-bubble-left">0</span> <button><div class="tweet">&nbsp </div></button><span class="hvr-bubble-left">0</span> <button><div class="google">&nbsp </div></button><span class="hvr-bubble-left">0</span> <button><div class="pinit">&nbsp </div></button></p>
     <div class="container_Allergens"><p>Allergens <img src="img/arrowdown.png" alt=""></p></div>
-    <ul>
-    <li>• Contains Milk Ingredients</li>
-    <li>• Contains Wheat Ingredients</li>
-    </ul>
+        <ul>
+            <li>• Contains Milk Ingredients</li>
+            <li>• Contains Wheat Ingredients</li>
+        </ul>
     <p><div class="container_Allergens"><p>Nutrition <img src="img/big_green_str.png" alt=""></p></div></p>
 
     <div class="container_Allergens"><p>Ingredients <img src="img/big_green_str.png" alt=""></p></div>
 
     <div class="container_Allergens"><p>Customer Reviews <img src="img/big_green_str.png" alt=""></p></div>
     </div>
-    </div>
+
     </article>
 
     <aside>
@@ -62,44 +65,93 @@
     <p><span class="main_right_s">Buy More & Save!</span><br><span class="main_right_s_f">Any Chobani 2 for $4 </span> <span class="main_right_s_s">View Selection</span>  <img src="img/green_strelk.png" alt=""> </p>
     <input type="checkbox"> <span class="main_right_obj_mp"><img src="img/fd_coupon.png" alt=""> </span> <span class="main_right_obj_s">Save $3.00</span> <span class="main_right_obj_f"> Details</span> <img src="img/green_strelk.png" alt="">
 
-    <div class="Customization">
-    <div class="title_custom"> Customize Your Item:</div>
-    <div class="custom">
-    <div class="custom_f">
-    <select>
-    <option>Customization 1</option>
-    </select></div>
-    <div class="custom_f">
-    <select>
-    <option>Customization 2</option>
-    </select></div>
-    <div class="custom_f">
-    <select>
-    <option>Customization 3</option>
-    </select></div>
-    </div>
+        <div class="Customization">
+        <div class="title_custom"> Customize Your Item:</div>
+        <div class="custom">
 
-    <div class="main_rgh_dw">
-    <p><input type="radio" name="button" > Single Cut</p>
-    <p><input type="radio" name="button" > Double Cut</p>
-    </div>
-    <div class="main_rgh_dw_c">
-    <span><span class="main_rgh_dw_s"><img src="img/minus.png" alt=""></span>&nbsp<input type="text" size="8" placeholder="1">&nbsp<img src="img/plus.png" alt=""> <span class="main_rgh_dw_f"> <span class="main_rgh_dw_t">Total: $38.80</span> <span class="main_rgh_dw_s">0.46/lb</span> <span class="main_rgh_dw_a">(est)</span></span></span></p>
-    </div>
-    <div class="main_rgh_dw_b">
-    <button>Add to Cart</button>
-    </div>
-    </div>
+            <div class="custom_f">
+            <select>
+            <option>Customization 1</option>
+            </select>
+            </div>
+
+            <div class="custom_f">
+            <select>
+            <option>Customization 2</option>
+            </select>
+            </div>
+
+            <div class="custom_f">
+            <select>
+            <option>Customization 3</option>
+            </select>
+            </div>
+
+        </div>
+
+            <div class="main_rgh_dw">
+            <p><input type="radio" name="button" > Single Cut</p>
+            <p><input type="radio" name="button" > Double Cut</p>
+            </div>
+        <div class="main_rgh_dw_c">
+        <span><span class="main_rgh_dw_s"><img src="img/minus.png" alt=""></span>&nbsp<input type="text" size="8" placeholder="1">&nbsp<img src="img/plus.png" alt=""> <span class="main_rgh_dw_f"> <span class="main_rgh_dw_t">Total: $38.80</span> <span class="main_rgh_dw_s">0.46/lb</span> <span class="main_rgh_dw_a">(est)</span></span></span></p>
+        </div>
+            <div class="main_rgh_dw_b">
+            <button>Add to Cart</button>
+            </div>
+        </div>
     <div class="main_rgh_dw_n"> Even Better Options</div>
-    <div class="main_rgh_a"><img src="img/classicmix.png" alt=""><span class="main_rgh_b"><span class="main_rgh_c"> Frito-Lay</span> <span class="main_rgh_f"> Class Mix Variety Box</span><br><img src="img/sm_b_star.png" alt=""><img src="img/sm_b_star.png" alt=""><img src="img/sm_b_star.png" alt=""><img src="img/sm_b_star.png" alt=""><img src="img/sm_g_star.png" alt=""><br><span class="main_rgh_c">$12.99/ea</span></span></div>
+    <div class="main_rgh_a"><img src="img/classicmix.png" alt=""><span class="main_rgh_b"><span class="main_rgh_c"> Frito-Lay</span> <span class="main_rgh_f"> Class Mix Variety Box</span><br><img src="img/sm_g_star.png" alt=""><img src="img/sm_g_star.png" alt=""><img src="img/sm_g_star.png" alt=""><img src="img/sm_g_star.png" alt=""><img src="img/sm_g_star.png" alt=""><br><span class="main_rgh_c">$12.99/ea</span></span></div>
     <hr>
-    <div class="main_rgh_a"><img src="img/classicmix_case.png" alt=""><span class="main_rgh_d"><span class="main_rgh_c"> Frito-Lay</span> <span class="main_rgh_f"> Classic Mix Variety<br>Sack, Case</span><br><img src="img/sm_b_star.png" alt=""><img src="img/sm_b_star.png" alt=""><img src="img/sm_b_star.png" alt=""><img src="img/sm_b_star.png" alt=""><img src="img/sm_g_star.png" alt=""><br><span class="main_rgh_c">$75.99/cs</span></span></div>
-
-    <p class="main_rgh_dw_y">
-    <img src="img/likethat.png" alt="">
-    </p>
-
+    <div class="main_rgh_a"><img src="img/classicmix_case.png" alt=""><span class="main_rgh_d"><span class="main_rgh_c"> Frito-Lay</span> <span class="main_rgh_f"> Classic Mix Variety<br>Sack, Case</span><br><img src="img/sm_g_star.png" alt=""><img src="img/sm_g_star.png" alt=""><img src="img/sm_g_star.png" alt=""><img src="img/sm_g_star.png" alt=""><img src="img/sm_g_star.png" alt=""><br><span class="main_rgh_c">$75.99/cs</span></span></div>
+        <p class="main_rgh_dw_y">
+        <img src="img/likethat.png" alt="">
+        </p>
     <p><img src="img/or_play.png" alt=""><span class="main_rgh_dw_u"> Product Request? Click here.</span></p>
+
+
+    <img src="img/grey_star.png" alt="">
+
     </aside>
+</div>
+
+<script>
+
+
+
+
+        $("img[src='img/sm_g_star.png']").click(function () {
+            $(this).attr("src", "img/sm_b_star.png")
+
+
+            $("img[src='img/sm_b_star.png']").click(function () {
+                $(this).attr("src", "img/sm_g_star.png")
+
+            });
+
+        });
+
+
+        $("img[src='img/grey_star.png']").click(function () {
+            $(this).attr("src", "img/gold_star.png")
+
+
+
+            $("img[src='img/gold_star.png']").click(function () {
+                $(this).attr("src", "img/grey_star.png");
+
+            });
+
+        });
+
+
+
+
+</script>
+
+
+
 </body>
 </html>
+
+
